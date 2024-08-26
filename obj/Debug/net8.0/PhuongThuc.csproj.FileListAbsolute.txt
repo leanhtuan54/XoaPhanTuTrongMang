@@ -1,0 +1,14 @@
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\PhuongThuc\obj\Debug\net8.0\PhuongThuc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\PhuongThuc\obj\Debug\net8.0\PhuongThuc.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\PhuongThuc\obj\Debug\net8.0\PhuongThuc.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\PhuongThuc\obj\Debug\net8.0\PhuongThuc.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\PhuongThuc\bin\Debug\net8.0\PhuongThuc.exe
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\PhuongThuc\bin\Debug\net8.0\PhuongThuc.deps.json
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\PhuongThuc\bin\Debug\net8.0\PhuongThuc.runtimeconfig.json
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\PhuongThuc\bin\Debug\net8.0\PhuongThuc.dll
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\PhuongThuc\bin\Debug\net8.0\PhuongThuc.pdb
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\PhuongThuc\obj\Debug\net8.0\PhuongThuc.dll
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\PhuongThuc\obj\Debug\net8.0\refint\PhuongThuc.dll
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\PhuongThuc\obj\Debug\net8.0\PhuongThuc.pdb
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\PhuongThuc\obj\Debug\net8.0\PhuongThuc.genruntimeconfig.cache
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\PhuongThuc\obj\Debug\net8.0\ref\PhuongThuc.dll
