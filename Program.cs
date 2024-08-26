@@ -1,67 +1,63 @@
 ﻿using System;
 
-namespace ChuyenDoiNhietDo
+namespace XoaPhanTuTrongMang
 {
     class Program
     {
        
-        public static double CelsiusToFahrenheit(double celsius)
+        static void Main(string[] args)
         {
-            double fahrenheit = (9.0 / 5) * celsius + 32;
-            return fahrenheit;
-        }
+            // Bước 1: Khai báo và khởi tạo mảng số nguyên
+            int[] array = { 10, 4, 6, 7, 8, 6, 0, 0, 0, 0 }; // Mảng cho trước
+            int n = array.Length; // Số phần tử trong mảng
 
-        // Phương thức chuyển đổi từ Fahrenheit sang Celsius
-        public static double FahrenheitToCelsius(double fahrenheit)
-        {
-            double celsius = (5.0 / 9) * (fahrenheit - 32);
-            return celsius;
-        }
+            // Hiển thị mảng ban đầu
+            Console.WriteLine("Mang ban dau:");
+            DisplayArray(array);
 
-        // Phương thức Main thực thi ứng dụng
-        public static void Main(string[] args)
-        {
-            double fahrenheit;
-            double celsius;
-            int choice;
+            // Bước 2: Nhập phần tử cần xoá
+            Console.WriteLine("Nhap phan tu can xoa: ");
+            int X = Int32.Parse(Console.ReadLine());
 
-            do
+            // Bước 3: Tìm vị trí của phần tử X
+            int index_del = -1; // Lưu vị trí của phần tử cần xoá
+            for (int i = 0; i < n; i++)
             {
-                // Hiển thị menu lựa chọn
-                Console.WriteLine("Menu:");
-                Console.WriteLine("1. Fahrenheit to Celsius");
-                Console.WriteLine("2. Celsius to Fahrenheit");
-                Console.WriteLine("0. Exit");
-                Console.WriteLine("Enter your choice: ");
-                choice = Int32.Parse(Console.ReadLine());
-
-                switch (choice)
+                if (array[i] == X)
                 {
-                    case 1:
-                        // Chuyển đổi Fahrenheit sang Celsius
-                        Console.WriteLine("Enter Fahrenheit: ");
-                        fahrenheit = Double.Parse(Console.ReadLine());
-                        Console.WriteLine("Fahrenheit to Celsius: " + FahrenheitToCelsius(fahrenheit));
-                        break;
-
-                    case 2:
-                        // Chuyển đổi Celsius sang Fahrenheit
-                        Console.WriteLine("Enter Celsius: ");
-                        celsius = Double.Parse(Console.ReadLine());
-                        Console.WriteLine("Celsius to Fahrenheit: " + CelsiusToFahrenheit(celsius));
-                        break;
-
-                    case 0:
-                        // Thoát chương trình
-                        Environment.Exit(0);
-                        break;
-
-                    default:
-                        // Trường hợp nhập lựa chọn không hợp lệ
-                        Console.WriteLine("Invalid choice. Please try again.");
-                        break;
+                    index_del = i; // Lưu vị trí của phần tử cần xoá
+                    break;
                 }
-            } while (choice != 0); // Vòng lặp tiếp tục cho đến khi người dùng chọn thoát
+            }
+
+            // Kiểm tra nếu phần tử X có xuất hiện trong mảng
+            if (index_del != -1)
+            {
+                // Bước 4: Thực hiện xoá phần tử X khỏi mảng
+                for (int i = index_del; i < n - 1; i++)
+                {
+                    array[i] = array[i + 1]; // Gán phần tử đằng sau lên vị trí hiện tại
+                }
+                array[n - 1] = 0; // Đặt giá trị 0 cho phần tử cuối cùng
+
+                // Bước 5: In ra mảng sau khi xóa
+                Console.WriteLine("Mang sau khi xoa phan tu " + X + ":");
+                DisplayArray(array);
+            }
+            else
+            {
+                Console.WriteLine("Phan tu " + X + " khong ton tai trong mang.");
+            }
+        }
+
+        // Hàm hiển thị mảng
+        static void DisplayArray(int[] array)
+        {
+            foreach (int item in array)
+            {
+                Console.Write(item + " ");
+            }
+            Console.WriteLine();
     }
 }
 }

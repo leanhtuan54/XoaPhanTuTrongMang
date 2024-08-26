@@ -12,3 +12,4 @@ C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\PhuongThuc\obj\Debug\net8.0\ref
 C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\PhuongThuc\obj\Debug\net8.0\PhuongThuc.pdb
 C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\PhuongThuc\obj\Debug\net8.0\PhuongThuc.genruntimeconfig.cache
 C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\PhuongThuc\obj\Debug\net8.0\ref\PhuongThuc.dll
+C:\Users\Admin\OneDrive\Desktop\Hoc-Code-game\C#\PhuongThuc\obj\Debug\net8.0\PhuongThuc.sourcelink.json
